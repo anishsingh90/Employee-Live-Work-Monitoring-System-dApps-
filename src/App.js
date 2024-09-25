@@ -12,7 +12,7 @@ function App() {
   const [activityTaskId, setActivityTaskId] = useState("");
   const [activityType, setActivityType] = useState("");
 
-  const contractAddress = "0x96481F8958D21b19b55a50537B51B2f4ff4eE963"; // Replace with your contract address
+  const contractAddress = "0x96481F8958D21b19b55a50537B51B2f4ff4eE963"; // This contract address is deployed on Remix-IDE
   const contractABI = [
     {
       "anonymous": false,
